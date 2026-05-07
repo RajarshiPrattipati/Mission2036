@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react'
+import yazhiLogo from '../assets/yazhi-logo.webp'
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false)
@@ -21,7 +22,7 @@ export default function Navbar() {
       <div className="container">
         <div className="nav-inner">
           <a href="#hero" className="nav-logo" onClick={e => { e.preventDefault(); scrollTo('hero') }}>
-            <div className="nav-logo-badge">Y</div>
+            <img src={yazhiLogo} alt="Yazhi FC" className="nav-logo-badge" />
             <div className="nav-logo-text">
               <div className="club">Yazhi Football Club</div>
               <div className="mission">Mission 2036</div>

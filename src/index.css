@@ -78,8 +78,7 @@ body {
 .nav-logo  { display: flex; align-items: center; gap: .8rem; text-decoration: none; }
 .nav-logo-badge {
   width: 36px; height: 36px; border-radius: 8px;
-  background: var(--red); display: flex; align-items: center; justify-content: center;
-  font-weight: 900; font-size: .95rem; color: #fff; flex-shrink: 0;
+  object-fit: contain; flex-shrink: 0;
 }
 .nav-logo-text .club    { font-size: .62rem; font-weight: 600; color: var(--gray); letter-spacing: .1em; text-transform: uppercase; }
 .nav-logo-text .mission { font-size: .9rem;  font-weight: 800; color: #fff; }
@@ -776,8 +775,8 @@ body {
 .footer-grid { display: grid; grid-template-columns: 1.6fr 1fr 1fr; gap: 5rem; margin-bottom: 4rem; }
 .f-brand .f-logo { display: flex; align-items: center; gap: .8rem; margin-bottom: 1.4rem; }
 .f-logo-badge {
-  width: 44px; height: 44px; background: var(--red); border-radius: 10px;
-  display: flex; align-items: center; justify-content: center; font-weight: 900; font-size: 1.1rem;
+  width: 44px; height: 44px; border-radius: 10px;
+  object-fit: contain;
 }
 .f-logo-text .c { font-size: .6rem; color: var(--gray); font-weight: 600; letter-spacing: .1em; text-transform: uppercase; }
 .f-logo-text .m { font-size: .95rem; font-weight: 800; }

@@ -1,3 +1,5 @@
+import yazhiLogo from '../assets/yazhi-logo.webp'
+
 export default function Footer() {
   const scrollTo = id => {
     const el = document.getElementById(id)
@@ -10,7 +12,7 @@ export default function Footer() {
         <div className="footer-grid">
           <div className="f-brand">
             <div className="f-logo">
-              <div className="f-logo-badge">Y</div>
+              <img src={yazhiLogo} alt="Yazhi FC" className="f-logo-badge" />
               <div className="f-logo-text">
                 <div className="c">Yazhi Football Club</div>
                 <div className="m">Mission 2036</div>
